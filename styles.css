@@ -1,37 +1,45 @@
 /*  your css code here. If applicable */
 body {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-  margin: 0;
+background-color:#f8f8f8;
 }
 
-.container {
-  width: 300px;
+.book-library {
+  background-color: #ffffff;
   padding: 20px;
-  border: 2px solid black;
-  border-radius: 10px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.book {
+  width: 200px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 15px;
   text-align: center;
-  background-color: #f0f0f0;
+  background-color: #fff;
 }
 
-.red, .green, .yellow {
-  display: inline-block;
-  width: 60px;
-  height: 60px;
-  border-radius: 50%;
-  margin: 10px;
+.book img {
+  width: 100%;
+  height: auto;
+  border-radius: 4px;
 }
 
-.red {
-  background-color: red;
+.book h3 {
+  font-size: 18px;
+  margin: 10px 0 5px;
 }
 
-.green {
-  background-color: green;
+.author {
+  color: #777777;
+  font-size: 14px;
 }
 
-.yellow {
-  background-color: yellow;
+.price-block {
+  color: #2ecc71;
+  font-weight: bold;
+  margin-top: 5px;
 }
