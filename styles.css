@@ -4,14 +4,22 @@ body{
 }
 .book-library{
 	background-color:#ffffff;
+	display:flex;
+	flex-direction:column;
+	justify-content:center;
+
 }
 .book{
 	
 }
-author{
+.author{
 	color:#777777;
 }
 .price{
+	display:flex;
 	border:1px solid non;
-	color:#2ecc71;
+	width:100%;
+	background-color:#2ecc71;
+	color:#ffffff;
+	justify-content:center;
 }
