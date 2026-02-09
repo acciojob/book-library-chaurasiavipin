@@ -1,19 +1,22 @@
 body{
 	background-color:#f8f8f8;
+	display:grid;
+	
 	
 }
 .book-library{
 	background-color:#ffffff;
-	display:flex;
-	flex-direction:column;
-	justify-content:center;
+	
+	
 
 }
 .book{
-	
+
+
 }
 .author{
 	color:#777777;
+	margin:0;
 }
 .price{
 	display:flex;
@@ -22,4 +25,12 @@ body{
 	background-color:#2ecc71;
 	color:#ffffff;
 	justify-content:center;
+}
+.book-library h1 {
+  text-align: center;
+}
+
+.book img {
+  display: block;
+  margin: 0 auto;
 }
