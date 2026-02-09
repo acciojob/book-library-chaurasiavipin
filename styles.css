@@ -11,12 +11,15 @@ body{
 
 }
 .book{
-
+margin:0;
+	padding:0;
+	
 
 }
 .author{
 	color:#777777;
-	margin:0;
+	
+	
 }
 .price{
 	display:flex;
@@ -33,4 +36,14 @@ body{
 .book img {
   display: block;
   margin: 0 auto;
+}
+.book h3 {
+  margin: 0;
+}
+
+.author {
+  margin: 0;
+}
+.price{
+	margin:0;
 }
